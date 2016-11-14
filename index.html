@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>my site</title>
+    <meta name="description" content="description of my site">
+    <meta name="author" content="cis.io">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="landingpage/img/logo.png">
+
+    <!-- usual bootstrap boiler plate -->
+    <link rel="stylesheet" type="text/css" href="other/bootstrap/css/bootstrap.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    <!-- leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css" />
+
+    <!-- our style sheet -->
+    <link href="landingpage/css/styles.css" rel="stylesheet">
+  </head>
+  <body>
+      <div class="header">
+          <!-- change "darker" to "dark" or remove it to have a lighter theme -->
+          <!-- remove "full" to have a regular container width -->
+          <div class="container darker full">
+
+            <!-- add depending on the banner and background, just try it
+            <div class="page-header"></div>
+            -->
+        
+            <div class="col-xs-12 col-sm-3 col1">
+                <div class="bannerRowTop">
+                    <div>
+                        MY SITE
+                        <br>&nbsp;
+                    </div>
+                </div>
+                <div class="bannerRowLower">
+                    <div>MY NAME</div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-3 col2">
+                <div class="bannerRowTop">
+                    <div>Street, 1</div>
+                    <div>10000 Town</div>
+                </div>
+        
+                <div class="bannerRowLower">
+                    <div><span class="glyphicon glyphicon-envelope"></span><a href="mailto:my@mysite.com"> MAIL CONTACT</a></div>
+                    <div><span class="glyphicon glyphicon-phone"></span> +41 00 00 000</div>
+                </div>            
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col3 text-center">
+                <!-- add to "class" "logomedium" or "logobig" to change the size of your logo -->
+                <img class="logo" src="landingpage/img/gear.svg" alt="my site">
+            </div>
+        </div>
+    </div>
+
+    <!-- if needed... but prefer something else
+    <div class="jumbotron dark space">
+        <div class="emptyBody"/>
+        <div class="container">
+            <h1>Message</h1>
+        </div>
+    </div>
+    -->
+
+    <!-- remove "full" to have a regular container width -->
+    <div class="container full">
+        <div class="row navbar navbar-fixed-bottom">
+            <div id="mapid"></div>
+        </div>
+    </div>
+            
+    <!-- scripts -->
+    <script src="other/jquery/js/jquery.js"></script>
+    <script src="other/bootstrap/js/bootstrap.js"></script>
+    <!-- backstretch edit backstretch.js to change the back ground -->
+    <script src="other/backstretch/js/jquery.backstretch.min.js"></script>
+    <script src="landingpage/js/backstretch.js"></script>
+    <!-- Map edit map.js to change the location -->
+    <script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
+    <script src="landingpage/js/map.js"></script>
+  </body>
+</html>

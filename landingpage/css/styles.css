@@ -1,0 +1,58 @@
+body {
+	font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+	line-height: 1.50;
+    color: #41897e;
+	background-color: black;
+	background-image: url("../img/background1.png");
+}
+
+.full {
+	width: 100%
+}
+
+.dark {
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+.darker {
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+.bannerRowTop {
+	font-size: 1.2em;
+}
+.bannerRowLower {
+	font-size: .7em;
+    margin-top: 1em;
+    color: #FFFFFF;
+}
+.bannerRowLower .a .a:hover .a:focus {
+    color: black;
+}
+
+.space {
+	margin: 1em;
+}
+
+a {
+	color: #FFFFFF;
+}
+a:hover {
+	color: #D96F0B;
+}
+
+.logo {
+	margin: .3em;
+	width: 20%;
+}
+
+.logomedium {
+    width: 50%;
+}
+
+.logobig {
+    width: 100%;
+}
+
+#mapid { height: 180px; }
